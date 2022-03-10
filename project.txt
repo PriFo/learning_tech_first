@@ -1,0 +1,12 @@
+Здесь будет какой-то текст, для того, чтобы загрузить файл на github
+
+#include <stdio>
+#include <stdlib>
+int main()
+{
+    int something = 5;
+    int x = 10;
+    if (something < x) printf("%d + %d = %d", something, x, something + x);
+    else printf("%d - %d = %d", something, x, something - x);
+    return(0);
+}
